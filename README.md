@@ -107,18 +107,18 @@ As you can see from the normalized confusion matrix above, the model did a good 
 
 ## Conclusion
 
-Based on our analysis, we can recommend including a predictive feature in residential irrigation systems. Our model could reduce ~80% of wasted water from watering before it rains. It would be better to market the product toward conservation/environment focused consumers. The model would only save consumers ~$150 annually. Conequently, I believe the water conservation would be a bigger draw for customers rather than the financial benefits. 
+Based on the analysis, I can recommend including a predictive feature in residential irrigation systems. This model could reduce ~80% of wasted water from watering before it rains. It would be better to market the product toward conservation/environment focused consumers. The model would only save consumers ~$150 annually. Conequently, I believe the water conservation would be a bigger draw for customers rather than the financial benefits. 
 
 Finally, I recommend approaching city officials to make rain prediction required on all irrigation systems. This would increase the impact of water conservation and benefit cities as whole.
 
 
 ## Future Steps
 
-Some additional steps that we would like to explore are as follows:
+Some additional steps that I would like to explore are as follows:
 - Address precision issue
 - Build model for residential use
 - Predict farther in the future
 - Utilize ‘neighboring’ predictions in a pseudo voting classifier model
 
-
+### Slide Deck
 https://docs.google.com/presentation/d/1jgoE_f_vWHqZwIAOyOTzPJ_BgS-FQCaEOjs7TIGPGzE/edit?usp=sharing
