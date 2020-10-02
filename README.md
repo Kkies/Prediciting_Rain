@@ -1,4 +1,4 @@
-# Prediciting_Rain
+# Prediciting Rain
 
 ## Introduction
 
@@ -10,7 +10,7 @@ The final model used would reduce wasted water in Houston by 2.9 billion gallons
 
 
 
-## Libraries Used:
+## Libraries Used
 
 To assist us in our research, we utilized the following libraries:
 
@@ -34,11 +34,11 @@ Build price-prediction models based on the chosen algorithms.
 Validate the models.
 Identify the most appropriate model.
 
-## Dataset: "Used Cars Dataset"
+## Dataset: "Rain in Austrailia"
 
 We used Kaggle dataset for this project. The data comes from scaped weather from the Austrailia Bureau of Meterology. It contains more 140,000 observations and has 24 columns. This data is from 2007 - 2017.
 
-#### Data Columns:
+#### Data Columns
 
 - Sunshine: amount of sunshine
 - Evaporation: amount of evaportation
@@ -66,7 +66,7 @@ We used Kaggle dataset for this project. The data comes from scaped weather from
 - Date: date of observation
 
 
-## Data Cleaning and Feature Selection:
+## Data Cleaning and Feature Selection
 
 This dataset had a lot of missing values in a few of the columns. In order to reduce the amount of nulls the data was grouped by region (custom feature) and date. From there we took the average value of the continuous columns and the mode of the categorical columns for each group. This data was used to impute. After this process we still had 6 observations with null values, so they were dropped.
 
@@ -77,7 +77,7 @@ Feature selection was perfromed in a myriad of ways depending on the type of mod
 Based on our data, we came across many findings. We found that there was a statistical difference of mean selling price between the various 50 states. 
 specifically, we found that used car prices were slightly higher in the states neighboured on Canada (such as Alaska, Idaho, Washington, Montana, North Dakota). Depending on the car condition, price was generally higher for cars that were new and like new conditions. In general, we found that there was statistical significance in including nearly all of the available catagorical features that were provided in the initial dataset. This resulted in our preprocessed data having over 144 columns, prior to any interaction generation.
 
-#### Based on our model we identified three key features:
+#### Based on our model we identified three key features
 Cloud cover at 3pm, wind direction, and location
 
 Our EDA and modeling can be viewed in detail in our notebook, but here are some of our visualization that we did:
