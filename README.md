@@ -84,19 +84,19 @@ Our EDA and modeling can be viewed in detail in our notebook, but here are some 
 
 ### Weather Stations
 
-![weather_station_locations](images/Screen\ Shot\ 2020-10-02\ at\ 12.57.17\ AM.png)
+<img width="690" alt="Screen Shot 2020-10-02 at 12 57 17 AM" src="https://user-images.githubusercontent.com/65979022/94931392-b64bef00-0495-11eb-9800-892423e6daaa.png">
 
 The weather stations data was collected from can be seen in the image above. The different colors represent the different regions that were feature engineered.
 
 ### Modeling Results 
 
-![modeling_results](images/modeling-results.png)
+<img width="820" alt="modeling-results" src="https://user-images.githubusercontent.com/65979022/94931462-c82d9200-0495-11eb-8ed7-a0ae1bde8de2.png">
 
 Our best model was a Logistic Regression with a recall score of 0.78. Recall was used because reducing false negatives is most important. We don't want to water if it will rain later that day.
 
 ### Most Important Features
 
-![most_important_features](images/most_important_features.png)
+![most_important_features](https://user-images.githubusercontent.com/65979022/94931420-bcda6680-0495-11eb-89c0-db0e0cc5108c.png)
 
 This is a look at the top 20 most impactful features in our final model. As mentioned earlier cloud cover at 3pm, wind direction, and location are key features.
 
