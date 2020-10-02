@@ -103,7 +103,7 @@ This is a look at the top 20 most impactful features in our final model. As ment
 
 ### Final Model Confusion Matrix 
 
-![confusion_matrix](images/confusion_matrix.png)
+![confusion_matrix](https://user-images.githubusercontent.com/65979022/94931733-1b9fe000-0496-11eb-8c0f-4a586e0ed57b.png)
 
 As you can see from the normalized confusion matrix above, the model did a good job at limiting false negatives. However, because of this is struggled to with false positives. Overall, the model preformed well. 
 
