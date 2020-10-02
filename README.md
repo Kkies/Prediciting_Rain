@@ -30,7 +30,7 @@ The main objectives of this project are as follows:
 Data collection and cleaning
 Analyzing the data
 Identify relevant machine-learning algorithms for the project.
-Build price-prediction models based on the chosen algorithms.
+Build classification models.
 Validate the models.
 Identify the most appropriate model.
 
@@ -72,12 +72,7 @@ This dataset had a lot of missing values in a few of the columns. In order to re
 
 Feature selection was perfromed in a myriad of ways depending on the type of model, but the best model was a logisitc regressor with kbest = 100 for feature selection. 
 
-## Analysis
-
-Based on our data, we came across many findings. We found that there was a statistical difference of mean selling price between the various 50 states. 
-specifically, we found that used car prices were slightly higher in the states neighboured on Canada (such as Alaska, Idaho, Washington, Montana, North Dakota). Depending on the car condition, price was generally higher for cars that were new and like new conditions. In general, we found that there was statistical significance in including nearly all of the available catagorical features that were provided in the initial dataset. This resulted in our preprocessed data having over 144 columns, prior to any interaction generation.
-
-#### Based on our model we identified three key features
+### Based on our model we identified three key features
 Cloud cover at 3pm, wind direction, and location
 
 Our EDA and modeling can be viewed in detail in our notebook, but here are some of our visualization that we did:
@@ -88,7 +83,9 @@ Our EDA and modeling can be viewed in detail in our notebook, but here are some 
 
 The weather stations data was collected from can be seen in the image above. The different colors represent the different regions that were feature engineered.
 
-### Modeling Results 
+## Modeling
+
+### Modeling Results
 
 <img width="820" alt="modeling-results" src="https://user-images.githubusercontent.com/65979022/94931462-c82d9200-0495-11eb-8ed7-a0ae1bde8de2.png">
 
